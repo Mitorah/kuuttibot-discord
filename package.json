@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Mitorah/kuuttibot-discord#readme",
   "dependencies": {
+    "discord.js": "^13.5.1",
+    "dotenv": "^10.0.0",
     "list": "^2.0.19"
   }
 }
