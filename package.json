@@ -1,0 +1,22 @@
+{
+  "name": "kuuttibot-discord",
+  "version": "1.0.0",
+  "description": "Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mitorah/kuuttibot-discord.git"
+  },
+  "author": "opj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mitorah/kuuttibot-discord/issues"
+  },
+  "homepage": "https://github.com/Mitorah/kuuttibot-discord#readme",
+  "dependencies": {
+    "list": "^2.0.19"
+  }
+}
