@@ -36,7 +36,7 @@ botClient.on('messageCreate', async message => {
     if (!botClient.commands.has(command)) return
 
 	try {
-        botClient.commands.get(command).execute(message)
+        botClient.commands.get(command).execute(message, args)
 	} catch (error) {
         console.error(error);
 		await message.reply({ content: 'There was an error while executing this command!', ephemeral: true });
