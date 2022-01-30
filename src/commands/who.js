@@ -15,6 +15,6 @@ module.exports = {
         if (args.length > 0)
             await message.reply(`Hello! My name is KuuttiBot! I got ${args.length} arguments: ${argComment}`)
         else
-            await message.reply(`Hello! My name is KuuttiBot with working hooks!!`)
+            await message.reply(`Hello! My name is KuuttiBot with working hooks!!!`)
     }
 }
