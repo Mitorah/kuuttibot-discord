@@ -37,10 +37,10 @@ function getTitleFromBody(body)
 
 function getImageFromBody(body)
 {
-    var expr = 'data=(.*) "type=image/gif"'
+    var expr = 'data=(.*) type="image/gif"'
     const imageMatch = body.match(expr)
 
-    var url = 'No image found!'
+    var url = 'Image could not be found!'
     
     if (imageMatch) {
         url = imageMatch[1];
