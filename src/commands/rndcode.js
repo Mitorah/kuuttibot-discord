@@ -43,7 +43,7 @@ function getImageFromBody(body)
     var url = 'Image could not be found!'
     
     if (imageMatch) {
-        url = imageMatch[1];
+        url = imageMatch[1].replace('"', '');
     }
     
     return url;
