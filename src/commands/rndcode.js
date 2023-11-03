@@ -1,6 +1,5 @@
-// File: src/commands/randomcode.js
-const { SlashCommandBuilder } = require('@discordjs/builders');
-const httpTools = require('../tools/httpGetAsync.js')
+const { SlashCommandBuilder } = require('discord.js');
+const httpTools = require("../../tools/httpGetAsync.js")
 
 module.exports = {
     data: new SlashCommandBuilder()
