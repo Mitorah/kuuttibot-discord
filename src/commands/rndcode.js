@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require('discord.js');
-const httpTools = require("../../tools/httpGetAsync.js")
+const httpTools = require("../tools/httpGetAsync.js")
 
 module.exports = {
     data: new SlashCommandBuilder()
